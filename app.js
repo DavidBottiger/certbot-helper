@@ -5,7 +5,8 @@ const app = express();
 //to be served statically
 //so that it can find hallenge fields
 //in /var/www/html/.well-known during
-//certification renewl
+//certification renewals
+//make sure the folder /var/www/html exists
 
 
 app.use(express.static('/var/www/html'));
